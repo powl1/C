@@ -1,0 +1,24 @@
+﻿  ex01.c
+  ex02.c
+  ex03.c
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(6,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(6,9): message : 서식 문자열에서 '%zu'을(를) 사용하는 것이 좋습니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(7,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(7,9): message : 서식 문자열에서 '%zu'을(를) 사용하는 것이 좋습니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(8,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(8,9): message : 서식 문자열에서 '%zu'을(를) 사용하는 것이 좋습니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(9,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(9,9): message : 서식 문자열에서 '%zu'을(를) 사용하는 것이 좋습니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(10,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(10,9): message : 서식 문자열에서 '%zu'을(를) 사용하는 것이 좋습니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(11,9): warning C4477: 'printf' : 서식 문자열 '%lu'에 'unsigned long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex03.c(11,9): message : 서식 문자열에서 '%zu'을(를) 사용하는 것이 좋습니다.
+  ex04.c
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\ex04.c(13,14): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  exam.c
+  코드를 생성하고 있습니다...
+ex02.obj : error LNK2005: main이(가) ex01.obj에 이미 정의되어 있습니다.
+ex03.obj : error LNK2005: main이(가) ex01.obj에 이미 정의되어 있습니다.
+ex04.obj : error LNK2005: main이(가) ex01.obj에 이미 정의되어 있습니다.
+exam.obj : error LNK2005: main이(가) ex01.obj에 이미 정의되어 있습니다.
+C:\Users\USER\Desktop\G_IT\c_workspace\Day02\x64\Debug\Day02.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
